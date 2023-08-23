@@ -2,3 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@media screen and (min-width:320px) and (max-width:768px) {
+    .heading-class{
+        font-size: 38px;
+        color: red;
+    }
+    .textarea-class{
+        height: 50px;
+        width: 60%;
+    }
+    .plusbutton-class{
+        height: 50px;
+        width: 80px;
+    }
+    .box-class{
+        width: 200px;
+    }
+}
